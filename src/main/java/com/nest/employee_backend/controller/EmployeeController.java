@@ -25,4 +25,8 @@ public class EmployeeController {
     public String ViewEmployee(){
         return "welcome to view all employee page";
     }
+    @GetMapping("/delete")
+    public String DeleteEmployee(){
+        return "welcome to  delete employee page";
+    }
 }
