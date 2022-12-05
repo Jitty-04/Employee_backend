@@ -21,8 +21,8 @@ public class EmployeeController {
     public String EditEmployee(){
         return "welcome to editemployee page";
     }
-    @GetMapping("/view")
+    @GetMapping("/viewall")
     public String ViewEmployee(){
-        return "welcome to viewemployee page";
+        return "welcome to view all employee page";
     }
 }
